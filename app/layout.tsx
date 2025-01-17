@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Landing Page",
-  description: "a landing page made by Federico Ag",
+  description: "a landing page made by Federico Aguirre",
 };
 
 export default function RootLayout({

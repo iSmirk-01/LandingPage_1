@@ -1,14 +1,17 @@
 import Header from "./Header"
 import styles from './Hero.module.css'
-import Mobile from "../svg/Mobile"
-import PlayButton from "../svg/PlayButton"
+import Mobile from "./svg/Mobile"
+import PlayButton from "./svg/PlayButton"
 
 function Hero() {
 
   return (
     <div className={`${styles.background} w-full h-[866px]`}>
+      {/* nav component */}
       <Header />
-      <div className="grid grid-cols-2 p-16 h-full w-full">
+      {/* hero container */}
+      <div role="hero" className="grid grid-cols-2 p-16 h-full w-full">
+        {/* left section */}
         <div className="flex flex-col gap-10 mt-36">
           <h1 className="text-5xl font-bold">
             The easiest way to manage projects
@@ -19,20 +22,26 @@ function Hero() {
           </p>
           <div className="flex gap-3 items-center">
             <button
-              className={`${styles.purpleBg} rounded-lg h-max w-max px-4 py-3 text-white`}
+              aria-label="Get started with project"
+              className={`${styles.purpleBg} rounded-lg h-max w-max px-4 py-3 text-white hover:bg-violet-500 active:bg-violet-600`}
             >
               Get Started
             </button>
-            <div
-              className={`${styles.purpleBorder} flex gap-2 items-center justify-center cursor-pointer`}
+            <button
+              aria-label="Watch introduction video"
+              className={`flex gap-2 items-center justify-center cursor-pointer active:bg-violet-600 active:border-none active:text-white text-violet-600 text transition-colors duration-200 hover:outline-violet-600 hover:outline px-2 py-3 rounded`}
             >
-              <PlayButton />
-              <p className={`${styles.purpleText}`}>Watch video</p>
-            </div>
+              <PlayButton className="fill-white" />
+              <span>Watch video</span>
+            </button>
           </div>
         </div>
         <div className="flex items-center justify-center w-full h-full">
-          <Mobile className="ml-28" />
+          {/* right section */}
+          <Mobile
+            aria-label="Illustration of a mobile device"
+            className="ml-28"
+          />
         </div>
       </div>
     </div>

@@ -1,33 +1,41 @@
-import Logo from '../svg/Logo'
-import AndroidStore from '../svg/AndroidStore';
-import AppleStore from '../svg/AppleStore';
+import Logo from "./svg/Logo";
+import AndroidStore from "./svg/AndroidStore";
+import AppleStore from "./svg/AppleStore";
 
 function Header() {
   return (
-    <header className="h-[80px] w-full">
-      <main className='items-center w-full h-full flex justify-between px-20 py-10'>
+    <nav className="h-[80px] w-full">
+      <main className="items-center w-full h-full flex justify-between px-20 py-10">
         <div className="flex gap-8">
-          <Logo />
+          <Logo aria-label="Company Logo" />
           <ul className="flex gap-5 font-semibold items-center">
-            <li className="cursor-pointer">Features</li>
-            <li className="cursor-pointer">Pricing</li>
-            <li className="cursor-pointer">Carrers</li>
-            <li className="cursor-pointer">Help</li>
+            <li className="cursor-pointer">
+              <button>Features</button>
+            </li>
+            <li className="cursor-pointer">
+              <button>Pricing </button>
+            </li>
+            <li className="cursor-pointer">
+              <button>Carrers</button>
+            </li>
+            <li className="cursor-pointer">
+              <button>Help</button>
+            </li>
           </ul>
         </div>
         <div>
           <ul className="flex gap-3">
             <li className="cursor-pointer">
-              <AndroidStore />
+              <AndroidStore aria-label="Download on android" />
             </li>
             <li className="cursor-pointer">
-              <AppleStore />
+              <AppleStore aria-label="Download on Apple store" />
             </li>
           </ul>
         </div>
       </main>
-    </header>
+    </nav>
   );
 }
 
-export default Header
+export default Header;

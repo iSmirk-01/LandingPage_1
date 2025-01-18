@@ -1,9 +1,9 @@
-import React from 'react'
+import Header from "./ui/hero/Header"
 
 function page() {
   return (
     <div>
-      this is the start
+      <Header />
     </div>
   )
 }

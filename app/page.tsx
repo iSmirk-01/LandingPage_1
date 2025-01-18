@@ -1,9 +1,9 @@
-import Header from "./ui/hero/Header"
+import Hero from "./ui/hero/Hero"
 
 function page() {
   return (
     <div>
-      <Header />
+      <Hero />
     </div>
   )
 }

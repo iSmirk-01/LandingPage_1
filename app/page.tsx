@@ -1,3 +1,4 @@
+import FeaturesComponent from "./ui/features/Features"
 import Hero from "./ui/hero/Hero"
 import TrustedBy from "./ui/trustedBy/Trusted"
 
@@ -6,6 +7,7 @@ function page() {
     <div>
       <Hero />
       <TrustedBy />
+      <FeaturesComponent />
     </div>
   )
 }

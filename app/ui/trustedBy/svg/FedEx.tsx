@@ -10,7 +10,7 @@ const FedEx: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
           xmlns="http://www.w3.org/2000/svg"
           {...props}
         >
-          <g clip-path="url(#clip0_2480_197)">
+          <g clipPath="url(#clip0_2480_197)">
             <path
               d="M59.4911 23.2817L66.1627 15.8925L59.4911 8.5022H66.5304L69.8347 12.0919L73.0167 8.5022H79.8104L73.1704 15.862L79.9015 23.2817H72.8333L69.5589 19.6625L66.3154 23.2817H59.4911Z"
               fill="#FF6600"

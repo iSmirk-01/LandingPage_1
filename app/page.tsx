@@ -1,3 +1,4 @@
+import Achievements from "./ui/achievements/Achievements"
 import FeaturesComponent from "./ui/features/FeaturesSection"
 import Hero from "./ui/hero/HeroSection"
 import Quotes from "./ui/quote/QuoteSection"
@@ -10,6 +11,7 @@ function page() {
       <TrustedBy />
       <FeaturesComponent />
       <Quotes />
+      <Achievements />
     </div>
   )
 }

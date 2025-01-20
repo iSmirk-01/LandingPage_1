@@ -1,9 +1,9 @@
-import HubSpot from "./svg/HubSpot";
-import AirBnb from "./svg/AirBnb"
-import Google from "./svg/Google"
-import MicroSoft from "./svg/MircoSoft"
-import Walmart from "./svg/Walmart";
-import FedEx from "./svg/FedEx";
+import HubSpot from "../svg/HubSpot";
+import AirBnb from "../svg/AirBnb"
+import Google from "../svg/Google"
+import MicroSoft from "../svg/MircoSoft"
+import Walmart from "../svg/Walmart";
+import FedEx from "../svg/FedEx";
 
 function TrustedBy() {
   

@@ -1,8 +1,8 @@
 import AirBnb from '../svg/AirBnb';
 import HubSpot from '../svg/HubSpot'
 import Strapi from '../svg/Strapi';
-import styles from './Quote.module.css'
-import QuoteComponent from './QuoteComponent'
+import styles from './Testimonial.module.css'
+import QuoteComponent from './TestimonialComponent'
 
 function Quotes() {
   return (

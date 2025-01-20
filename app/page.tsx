@@ -1,9 +1,11 @@
 import Achievements from "./ui/achievements/Achievements"
 import FeaturesComponent from "./ui/features/FeaturesSection"
+import Footer from "./ui/footer/Footer"
 import Hero from "./ui/hero/HeroSection"
-import Quotes from "./ui/quote/QuoteSection"
+import Quotes from "./ui/testimonial/TestimonialSection"
 import Tips1 from "./ui/tips/Tips1"
-import TrustedBy from "./ui/Trusted"
+import Tips2 from "./ui/tips/Tips2"
+import TrustedBy from "./ui/trusted/Trusted"
 
 function page() {
   return (
@@ -14,6 +16,8 @@ function page() {
       <Quotes />
       <Achievements />
       <Tips1 />
+      <Tips2 />
+      <Footer />
     </div>
   )
 }

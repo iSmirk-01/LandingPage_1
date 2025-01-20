@@ -1,9 +1,9 @@
-import RobustIcon from "./svg/RobustIcon"
-import Flexibility from "./svg/Flexibility"
-import UserFriendly from "./svg/UserFriendly"
-import MultipleLayoutsIcon from "./svg/MultipleLayoutsIcon"
-import BetterComponents from "./svg/BetterComponents"
-import WellOrganised from "./svg/WellOrganised"
+import RobustIcon from "../svg/RobustIcon"
+import Flexibility from "../svg/Flexibility"
+import UserFriendly from "../svg/UserFriendly"
+import MultipleLayoutsIcon from "../svg/MultipleLayoutsIcon"
+import BetterComponents from "../svg/BetterComponents"
+import WellOrganised from "../svg/WellOrganised"
 
 export const FeaturesArray = [
   {

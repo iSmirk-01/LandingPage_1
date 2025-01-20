@@ -1,4 +1,4 @@
-import { FeaturesArray } from "./FeaturesComponent";
+import { FeaturesArray } from "./FeaturesArray";
 
 function Features() {
   return (

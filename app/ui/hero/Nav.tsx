@@ -1,6 +1,6 @@
-import Logo from "./svg/Logo";
-import AndroidStore from "./svg/AndroidStore";
-import AppleStore from "./svg/AppleStore";
+import Logo from "../svg/Logo";
+import AndroidStore from "../svg/AndroidStore";
+import AppleStore from "../svg/AppleStore";
 
 function Header() {
   return (

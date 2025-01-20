@@ -1,7 +1,7 @@
-import Header from "./Header"
+import Header from "./Nav"
 import styles from './Hero.module.css'
-import Mobile from "./svg/Mobile"
-import PlayButton from "./svg/PlayButton"
+import Mobile from "../svg/Mobile"
+import PlayButton from "../svg/PlayButton"
 
 function Hero() {
 

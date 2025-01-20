@@ -1,6 +1,7 @@
-import FeaturesComponent from "./ui/features/Features"
-import Hero from "./ui/hero/Hero"
-import TrustedBy from "./ui/trustedBy/Trusted"
+import FeaturesComponent from "./ui/features/FeaturesSection"
+import Hero from "./ui/hero/HeroSection"
+import Quotes from "./ui/quote/QuoteSection"
+import TrustedBy from "./ui/Trusted"
 
 function page() {
   return (
@@ -8,6 +9,7 @@ function page() {
       <Hero />
       <TrustedBy />
       <FeaturesComponent />
+      <Quotes />
     </div>
   )
 }

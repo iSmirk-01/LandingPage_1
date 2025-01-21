@@ -32,8 +32,7 @@ function Footer() {
 
         {/* Footer Note */}
         <p className="text-sm text-slate-500">
-          © 2021 Landify UI Kit. All rights reserved. Mocked by Federico
-          Aguirre.
+          © 2021 Landify UI Kit. All rights reserved. Cloned by Federico for Practice
         </p>
       </div>
 

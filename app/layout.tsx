@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Landing Page",
-  description: "a landing page made by Federico Aguirre",
+  description: "Design replicated from Landify Ui for educational purposes by [Federico]",
 };
 
 export default function RootLayout({
@@ -22,6 +22,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body

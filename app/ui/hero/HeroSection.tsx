@@ -1,4 +1,4 @@
-import Header from "./Nav"
+import Nav from "./Nav"
 import styles from './Hero.module.css'
 import Mobile from "../svg/Mobile"
 import PlayButton from "../svg/PlayButton"
@@ -6,13 +6,14 @@ import PlayButton from "../svg/PlayButton"
 function Hero() {
 
   return (
-    <div className={`${styles.background} w-full h-[866px]`}>
-      {/* nav component */}
-      <Header />
+    <div className={`${styles.background} w-full m-h-[866px]`}>
+      <Nav />
       {/* hero container */}
-      <div role="hero" className="grid grid-cols-2 p-16 h-full w-full">
-        {/* left section */}
-        <div className="flex flex-col gap-10 mt-36">
+      <div
+        role="hero"
+        className="grid lg:grid-cols-2 grid-cols-1 p-16 h-full w-full lg:grid-flow-col-dense"
+      >
+        <div className="flex flex-col gap-10">
           <h1 className="text-5xl font-bold">
             The easiest way to manage projects
           </h1>
@@ -36,11 +37,11 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full h-full">
+        <div className="flex justify-center w-full h-full">
           {/* right section */}
           <Mobile
             aria-label="Illustration of a mobile device"
-            className="ml-28"
+            className="p-4"
           />
         </div>
       </div>

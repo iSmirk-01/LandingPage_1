@@ -2,7 +2,7 @@ import Achievements from "./ui/achievements/Achievements"
 import FeaturesComponent from "./ui/features/FeaturesSection"
 import Footer from "./ui/footer/Footer"
 import Hero from "./ui/hero/HeroSection"
-import Quotes from "./ui/testimonial/TestimonialSection"
+import Testimonial from "./ui/testimonial/TestimonialSection"
 import Tips1 from "./ui/tips/Tips1"
 import Tips2 from "./ui/tips/Tips2"
 import TrustedBy from "./ui/trusted/Trusted"
@@ -13,7 +13,7 @@ function page() {
       <Hero />
       <TrustedBy />
       <FeaturesComponent />
-      <Quotes />
+      <Testimonial />
       <Achievements />
       <Tips1 />
       <Tips2 />

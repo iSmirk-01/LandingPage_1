@@ -7,15 +7,15 @@ import WellOrganised from '../svg/WellOrganised';
 
 function Achievements() {
   return (
-    <div className="h-[338px] w-full grid grid-cols-2 place-items-center">
-      <div className="flex flex-col gap-3">
+    <div className="min-h-[338px] w-full grid grid-cols-1 md:grid-cols-2 p-10 gap-8 md:place-items-center">
+      <div className="flex flex-col gap-2">
         <h1 className="font-bold text-5xl">
-          Our 18 years of <br /> achievements
+          Our 18 years of<br />achievements
         </h1>
         <p className="">with or super powers we have reached this</p>
       </div>
 
-      <div className="grid grid-cols-2 place-items-start gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 place-items-start gap-8 overflow-x-hidden">
         <StatComponent
           icon={<RobustIcon />}
           stat="10,000+"

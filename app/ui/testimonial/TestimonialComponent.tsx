@@ -11,8 +11,8 @@ interface Props {
 
 function QuoteComponent({ logo, testimonial, name, company, css }: Props) {
   return (
-    <div className={`${css} flex items-center flex-col max-w-[400px] gap-4 bg-white p-9 rounded-md`}>
-      <div className="flex self-start">{logo}</div>
+    <div className={`${css} flex items-center flex-col lg:max-w-[400px] gap-6 bg-white p-9 rounded-md w-full`}>
+      <div className="self-start">{logo}</div>
       <div className="relative">
             {<Quotes className="absolute -top-1 -left-6" />}
             <p className="prose">{testimonial}</p>

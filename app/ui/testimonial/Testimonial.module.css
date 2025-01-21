@@ -1,8 +1,28 @@
+/* Mobile */
 .background {
-    background-image: url('/background/Testimonial.png');
+    background-image: url('/background/TestimonialMobile.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size: 100% 100%;
     width: 100%;
+}
+/* tablet */
+@media (min-width: 768px) {
+    .background {
+        background-image: url('/background/TestimonialTablet.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+    }
+}
+/*desktop*/
+@media (min-width: 1024px) {
+    .background {
+        background-image: url('/background/TestimonialDesktop.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+    }
 }
